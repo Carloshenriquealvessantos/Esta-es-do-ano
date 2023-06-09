@@ -1,0 +1,92 @@
+<html>
+<head> 
+    <title>Estações do ano</title>
+      <style>
+tr
+{
+    height: 50pt;
+}
+td
+{
+ 
+ width:150px;
+    border-color: red;
+    border-style: solid;
+    border-width: 3pt;
+    border-radius: 5%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#imagem
+{
+background-image: url(estacoes.png);
+width: 200px;
+height: 150px;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+span
+{
+    transform: rotate(-180deg);
+    writing-mode: vertical-lr;
+    width: 25px;
+}
+#primavera
+{
+    border-color: green;
+}
+#verão
+{
+    border-color: yellow;
+}
+#outono
+{
+    border-color: brown;
+}
+#inverno
+{
+    border-color: blue;
+}
+
+      </style>
+</head>
+<body>
+    <table>
+    <tr>
+        <Td rowspan="3" colspan="3" id="imagem"></Td>
+        <td rowspan="2" colspan="3" heigth="10"> Hemisfério </td>
+    </tr>
+    <tr>
+        
+    </tr>
+    <tr> 
+        <td>Norte</td>
+        <td>Sul</td>
+    </tr>
+    <tr>
+        <td rowspan="4"><span > Estações </span></td>
+        <td colspan="2" id="Primavera"> Primavera</td>
+        <td id="primavera">21/03 à 20/06</td>
+        <td id="primavera">21/09 à 20/12</td>
+    </tr>
+    <tr>
+         <td colspan="2" id="Verão"> Verão</td>
+        <td id="Verão">21/06 à 20/09</td>
+        <td id="Verão">21/12 à 20/03</td>
+    </tr>
+    <tr>
+     
+        <td colspan="2" id="Outono"> Outono</td>
+        <td id="Outono">21/09 à 20/12</td>
+        <td id="Outono">21/03 à 20/06</td>
+    </tr>
+    <tr>
+        <td colspan="2" id="Inverno"> Inverno</td>
+        <td id="Inverno">21/12 à 20/03</td>
+        <td id="Inverno">21/06 à 20/09</td>
+    </tr>
+</table>
+</body>
+</html>
